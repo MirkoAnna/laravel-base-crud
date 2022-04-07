@@ -1,0 +1,63 @@
+.wrapper-comic {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: rgb(10,7,3);
+    background: linear-gradient(145deg, rgba(10,7,3,1) 50%, rgba(252,199,69,1) 100%);
+    overflow-y: scroll;
+
+    .container-comic {
+        position: relative;
+        padding: 4% 7%;
+
+        h1 {
+            color: gold;
+            margin-bottom: 5%;
+        }
+        .container-image {
+            width: 30%;
+            height: 60%;
+
+            a:hover {
+                opacity: 0.5;
+            }
+        }
+
+        .container-text {
+            position: absolute;
+            right: 5%;
+            bottom: 10%;
+            width: 45%;
+            font-size: 110%;
+
+            &:hover {
+                cursor: zoom-in;
+                transform: scale(1.2);
+            }
+        }
+        
+        .details {
+            margin-top: 4%;
+
+            li {
+                width: fit-content;
+                list-style: none;
+                color: gold;
+                margin: 1% 0;
+            }
+
+            li:last-of-type {
+                text-transform: capitalize;
+            }
+        }
+
+        .back {
+            margin-top: 4%;
+
+            a {
+                color: darkviolet;
+                text-decoration: none;
+            }
+        }
+    }
+}

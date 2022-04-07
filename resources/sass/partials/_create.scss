@@ -1,0 +1,32 @@
+h1 {
+    padding: 1%;
+}
+.create-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1.5%;
+    width: max-content;
+    height: 100vh;
+
+    .box {
+        margin: 4%;
+        box-shadow: 2px 2px 2px 2px rgb(0, 115, 186);
+    }
+    input, textarea, select {
+        width: 100%;
+    }
+
+    button {
+        margin: 0 auto;
+        width: 5rem;
+        height: 2rem;
+        cursor: pointer;
+    }
+
+    a {
+        margin-top: 5%;
+        color: darkviolet;
+        text-decoration: none;
+    }
+}

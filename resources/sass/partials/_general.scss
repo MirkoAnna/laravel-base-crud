@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,180,230,1) 0%, rgba(9,9,121,1) 100%);
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
