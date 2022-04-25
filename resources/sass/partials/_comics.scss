@@ -4,12 +4,16 @@
     width: 100%;
 
     a {
-        color: white;
         position: fixed;
         margin: 2% 2%;
-        cursor: pointer;
         font-size: 130%;
+        text-decoration: none;
+        color: white;
         background-color: rgba(0, 0, 0, 0.2);
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
 .container-comics {
@@ -20,19 +24,33 @@
     h2 {
         margin: 1% 0;
     }
-        .overlay {
-            width: fit-content;
-            height: fit-content;
-            background-color: black;
+
+    .overlay {
+        width: fit-content;
+        height: fit-content;
+        background-color: black;
+
+        img {
+            width: 12rem;
+            height: 19rem;
         }
-        a:hover {
-            opacity: 0.5;
-        }
+    }
+    a:hover {
+        opacity: 0.5;
+    }
 
     p {
         font-style: italic;
         text-transform: uppercase;
-        text-align: center;
     }
 
+    p:first-of-type {
+        margin: 0 auto;
+    }
+
+    a {
+        font-style: italic;
+        text-transform: uppercase;
+        color: yellow;
+    }
 }

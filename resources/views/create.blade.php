@@ -7,7 +7,7 @@
 
     <h1>Insert comic</h1>
     
-    <div class="flex create-container">
+    <div class="create-container">
 
         <form method="POST" action="{{route('comic.store')}}">
         
@@ -60,8 +60,8 @@
             
             <button type="submit">Submit</button>
         </form>
-            <a href="{{route('comic.index')}}"><h4>>> Go back</h4></a>
-            
+        
+        <a href="{{route('comic.index')}}"><h4>>> Go back</h4></a>
     </div>
 
 
